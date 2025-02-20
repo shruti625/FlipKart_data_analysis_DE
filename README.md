@@ -10,4 +10,16 @@ Filling Null Values: Replace missing values with meaningful defaults to maintain
 Data Transformations & Aggregations: Perform necessary transformations and aggregations to extract useful insights.
 Data Analysis: Conduct exploratory data analysis (EDA) to derive trends, patterns, and business insights.
 
+Columns description:
+id : product unique number
+title: description of product
+Rating: Rating of product
+maincatg: made for men/women
+platform: product platform
+actprice1: actual price
+norating1 :number of customer didn't rate
+noreviews1: number of customer didn't review the product
+star_5f: total number of customer who given 5 star
+star_4f:total number of customer who given 4 star
+
 Technologies: Pyspark,SQL,csv(data handling)
